@@ -1,0 +1,174 @@
+@media(max-width: 64em){
+    .bring{
+        font-size: 5rem;
+    }
+
+    .sub-text{
+        font-size: 1.6rem;
+    }
+
+    .manage{
+        font-size: 3rem;
+    }
+
+    .update{
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 61em){
+    .each-input{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 54.5em){
+    .nav-list{
+        display: none;
+    }
+
+    .nav-button{
+        display: none;
+    }
+
+    .menu-buttons{
+        display: flex;
+    }   
+
+    .s-button{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .simplify{
+        font-size: 3rem;
+        width: 50%;
+    }
+
+    .each-listing{
+        font-size: 1.5rem;  
+    }
+
+    .footer-btn{
+        font-size: 1.3rem;
+        padding: 1rem 4rem;
+    }
+
+    .copyright{
+        font-size: 1rem;
+    }
+
+    .each-input{
+        font-size: 1.3rem;
+    }
+
+}
+
+@media(max-width: 46em){
+    .slider{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 39em){
+    .modal{
+        height: fit-content;
+    }
+
+    .mobile{
+        margin-top: 20%;
+        font-size: 1rem;
+    }
+
+    .s-button{
+        margin-top: 3rem;
+    }
+
+    .title{
+        font-size: 4rem;
+    }
+
+    .inputs{
+        display: grid;
+        row-gap: 5%;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 34em){
+    .bring{
+        font-size: 3.5rem;
+    }
+
+    .sub-text{
+        font-size: 1.3rem;
+    }
+
+    .manage{
+        font-size: 2rem;
+    }
+
+    .simplify{
+        font-size: 2rem;
+    }
+
+    .lower-footer{
+        grid-template-columns: 1fr;
+        height: 30rem;
+        gap: 2%;
+        align-items: center;
+    }
+
+    .f-grid{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .socials{
+        margin-top: 0;
+    }
+
+    .each-listing{
+        font-size: 1rem;
+    }
+
+    .grid-section{
+        grid-template-columns: 1fr;
+    }
+
+    .gridy{
+        text-align: center;
+    }
+
+    .gridy:nth-child(2){
+        grid-row: 1;
+    }
+
+    .each-slide{
+        margin: 0 5%;
+    }
+
+    .update{
+        padding: 2%;
+        width: 100%;
+    }
+
+    .update-btn{
+        padding: 2% 4%;
+    }
+
+    .grid-end{
+        gap: 1rem;
+    }
+}
+
+@media(max-width: 30em){
+    .slider{
+        grid-template-columns: 1fr;
+        width: 80%;
+    }
+}
